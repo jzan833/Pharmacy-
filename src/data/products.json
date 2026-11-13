@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "ရွှေဖီချောကလက်", "price": 500, "image": "https://placehold.co/600x450/f5e6c8/5c3a1e?text=Chocolate", "category": "မုန့်နှင့်အချိုပွဲ" },
+  { "id": 2, "name": "လက်ဖက်ရည်ဆား တစ်ထုပ်", "price": 1200, "image": "https://placehold.co/600x450/e8dfc7/59452f?text=Tea+Salad", "category": "စားသောက်ကုန်" },
+  { "id": 3, "name": "မွှေးရနံ့ဆပ်ပြာ", "price": 800, "image": "https://placehold.co/600x450/d9edf0/31545a?text=Soap", "category": "အိမ်သုံးပစ္စည်း" },
+  { "id": 4, "name": "ရွှေဝါဆန် ၁ ပြည်", "price": 3500, "image": "https://placehold.co/600x450/f4edcf/71632d?text=Rice", "category": "ဆန်နှင့်ကောက်ပဲသီးနှံ" },
+  { "id": 5, "name": "လက်ဖက်ရည်ခြောက်", "price": 1500, "image": "https://placehold.co/600x450/e1edcf/486033?text=Tea", "category": "အဖျော်ယမကာ" },
+  { "id": 6, "name": "ကြက်ဥ ၁ လုံး", "price": 400, "image": "https://placehold.co/600x450/f8edda/755d38?text=Egg", "category": "လတ်ဆတ်ပစ္စည်း" },
+  { "id": 7, "name": "စားအုန်းဆီ ၁ ပုလင်း", "price": 6000, "image": "https://placehold.co/600x450/f8e9b9/806326?text=Cooking+Oil", "category": "စားသောက်ကုန်" },
+  { "id": 8, "name": "အသင့်စားခေါက်ဆွဲ", "price": 1000, "image": "https://placehold.co/600x450/f4d9c7/7a4428?text=Noodles", "category": "စားသောက်ကုန်" },
+  { "id": 9, "name": "သွားတိုက်ဆေး", "price": 2500, "image": "https://placehold.co/600x450/dce9fa/38547b?text=Toothpaste", "category": "တစ်ကိုယ်ရည်သုံးပစ္စည်း" },
+  { "id": 10, "name": "သန့်စင်ရေ ၁ ဘူး", "price": 500, "image": "https://placehold.co/600x450/d5eff2/376d73?text=Drinking+Water", "category": "အဖျော်ယမကာ" }
+]
