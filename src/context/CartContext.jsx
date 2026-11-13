@@ -1,7 +1,7 @@
 import { useEffect, useReducer } from 'react'
 import { CartContext } from './cart-context'
 
-const CART_STORAGE_KEY = 'soe-myitter-cart'
+const CART_STORAGE_KEY = 'soe-myitter-pharmacy-cart-v2'
 
 function getSavedCart() {
   try {
