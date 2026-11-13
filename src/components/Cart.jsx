@@ -2,7 +2,7 @@ import products from '../data/products.json'
 import { useCart } from '../context/useCart'
 import './Cart.css'
 
-function Cart() {
+function Cart({ onCheckout }) {
   const { cart, increaseQuantity, decreaseQuantity, removeFromCart, clearCart } = useCart()
   const cartProducts = cart
     .map((item) => ({ ...item, product: products.find((product) => product.id === item.id) }))
@@ -57,6 +57,9 @@ function Cart() {
           </div>
           <button className="clear-cart-button" onClick={clearCart} type="button">
             ခြင်းရှင်းမည်
+          </button>
+          <button className="checkout-button" onClick={onCheckout} type="button">
+            မှာယူမည်
           </button>
         </>
       )}

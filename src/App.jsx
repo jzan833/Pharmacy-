@@ -1,11 +1,11 @@
-import Cart from './components/Cart'
+import Checkout from './components/Checkout'
 import ProductList from './components/ProductList'
 import { CartProvider } from './context/CartContext'
 
 function App() {
   return (
     <CartProvider>
-      <Cart />
+      <Checkout />
       <ProductList />
     </CartProvider>
   )
