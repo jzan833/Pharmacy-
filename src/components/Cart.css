@@ -16,5 +16,6 @@
 .cart-total strong { color: #315e3d; }
 .clear-cart-button { margin-top: 14px; padding: 8px 12px; border: 1px solid #dce4da; border-radius: 8px; background: white; color: #526056; font: inherit; cursor: pointer; }
 .checkout-button { margin: 14px 0 0 10px; padding: 9px 16px; border: 0; border-radius: 8px; background: #3d7049; color: white; font: inherit; font-weight: 700; cursor: pointer; }
+.order-history-link { margin-top: 14px; padding: 7px 0; border: 0; background: transparent; color: #315e3d; font: inherit; text-decoration: underline; cursor: pointer; }
 .quantity-controls button:focus-visible, .clear-cart-button:focus-visible { outline: 3px solid #91bd9b; outline-offset: 2px; }
 .checkout-button:focus-visible { outline: 3px solid #91bd9b; outline-offset: 2px; }

@@ -2,7 +2,7 @@ import products from '../data/products.json'
 import { useCart } from '../context/useCart'
 import './Cart.css'
 
-function Cart({ onCheckout }) {
+function Cart({ onCheckout, onOrderHistory }) {
   const { cart, increaseQuantity, decreaseQuantity, removeFromCart, clearCart } = useCart()
   const cartProducts = cart
     .map((item) => ({ ...item, product: products.find((product) => product.id === item.id) }))
@@ -19,6 +19,9 @@ function Cart({ onCheckout }) {
         <h2>ဝယ်ခြင်း</h2>
         <span className="cart-count">{itemCount.toLocaleString('my-MM')} မျိုး</span>
       </div>
+      <button className="order-history-link" onClick={onOrderHistory} type="button">
+        ကျွန်တော့် order history ကြည့်မည်
+      </button>
 
       {cartProducts.length === 0 ? (
         <p className="cart-empty">ခြင်းထဲမှာ ပစ္စည်းမရှိသေးပါ။</p>
